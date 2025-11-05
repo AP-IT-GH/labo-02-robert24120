@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mijn Semantische Webpagina</title>
+  </head>
+  <body>
+    <!-- Header met logo en navigatie -->
+    <header>
+      <figure>
+        <img src="images/AP-logo.png" alt="Logo van de website" width="200" />
+        <figcaption>Logo van Mijn Webpagina</figcaption>
+      </figure>
+      <h1>Mijn Semantische Webpagina</h1>
+      <nav>
+        <ul>
+          <li><a href="#sectie1">Sectie 1</a></li>
+          <li><a href="#sectie2">Sectie 2</a></li>
+          <li><a href="#sectie3">Sectie 3</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hoofdinhoud -->
+    <main>
+      <article id="sectie1">
+        <h2>Introductie</h2>
+        <p>
+          Welkom op mijn webpagina waar we de
+          <abbr title="HyperText Markup Language">HTML</abbr> semantiek leren
+          gebruiken. Semantische elementen geven betekenis aan de inhoud.
+        </p>
+        <figure>
+          <img src="images/home-banner.jpg" alt="Voorbeeld afbeelding" />
+          <figcaption>
+            Een voorbeeld van een afbeelding met figcaption
+          </figcaption>
+        </figure>
+      </article>
+
+      <section id="sectie2">
+        <h2>Multimedia Voorbeeld</h2>
+        <p>Hier is een voorbeeld van een audio bestand:</p>
+        <audio controls>
+          <source
+            src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+            type="audio/mpeg"
+          />
+          Jouw browser ondersteunt geen audio-element.
+        </audio>
+      </section>
+
+      <section id="sectie3">
+        <h2>Inspirerende Quote</h2>
+        <blockquote>
+          <p>"Kennis is macht."</p>
+          <footer>— Francis Bacon</footer>
+        </blockquote>
+        <p>Deze uitspraak benadrukt het belang van leren en begrijpen.</p>
+      </section>
+    </main>
+
+    <!-- Zijbalk -->
+    <aside>
+      <h2>Contactinformatie</h2>
+      <address>
+        Adres: Straatnaam 123, 2000 Antwerpen<br />
+        Telefoon: +32 123 45 67 89<br />
+        E-mail: <a href="mailto:lector@ap.be">lector@ap.be</a>
+      </address>
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+      &copy; 2025 <a href="https://www.ap.be" target="_blank">AP-Hogeschool</a>
+    </footer>
+  </body>
+</html>
